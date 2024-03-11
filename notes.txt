@@ -45,3 +45,31 @@ Ans : we can write logger inside a seperate file but we will have to initialize 
 
       EX : from cnnClassifier import logger
 
+
+
+Ques : What is MLFLOW?
+Ans : for Experiment tracking purpose
+
+      supp are doing experiment with models
+
+      Experiment 1
+      Elastic Net  --> Alpha = 0.7, L1 Ration= 0.9 --> Accuracy 70%
+
+      Experiment 2
+      Elastic Net  --> Alpha = 0.5, L1 Ration= 0.5 --> Accuracy 80%
+
+      Experiment 3
+      Elastic Net  --> Alpha = 0.4, L1 Ration= 0.6 --> Accuracy 50%
+      .
+      .
+      .
+      Experiment 10
+
+
+      We will save result of all the Experiments in a CSV file and then do the manual observation
+
+      But using MLFLOW functionality call experiment tracking we can directly observe which
+      models is performing the best. 
+      It creates a mlruns directory which contains all the experiment results which we can use for model comparision.
+      
+
