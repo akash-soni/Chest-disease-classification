@@ -1,0 +1,47 @@
+Ques : What is Python-Box
+Ans : for directly writing exceptions without creating custom exceptions.
+
+
+Ques : What is config box
+Ans :  Suppose we want to access a dictionary object 
+       EX : data['name'] , this will return the name 
+       but Suppose if we want to access like this
+
+       data.name then we will get the error, but this is more conveninent approach
+
+
+       to fix such we use config box. Check trials.ipynb
+          
+
+Ques :  What is Ensure annotations?
+Ans :  Consider function
+ 
+        def get_product(x:int, y:int):
+            return x*y
+
+        get_product(x=4, y=5)  will return 20
+        get_product(x=4, y="5") will return 5555 which is wrong 
+
+        If we use ensure annotations then
+
+        @ensure_annotations
+        def get_product(x:int, y:int):
+            return x*y
+
+        get_product(x=4, y=5)  will return 20
+        get_product(x=4, y="5") will return error
+
+        Here it will not allow string value to get passed into integer.
+
+        This is mainly used to write production quality code .
+
+Ques : Why logs inside the utils constructor file?
+Ans : we can write logger inside a seperate file but we will have to initialize the import path
+
+      EX : from cnnClassifier.loggings import logger
+
+      but if we directly write inside the constructor then we will not have to write seperely
+      we can directly import with the name of our packge
+
+      EX : from cnnClassifier import logger
+
