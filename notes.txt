@@ -73,3 +73,8 @@ Ans : for Experiment tracking purpose
       It creates a mlruns directory which contains all the experiment results which we can use for model comparision.
       
 
+
+      Practicle:
+      - Using local MLFLOW setup, it will create a mlruns directory which will contains all Experiments. Check mlflow_demo.Python
+      - 
+

@@ -69,3 +69,24 @@ python app.py
 ## Live matarials docs
 
 [link](https://docs.google.com/document/d/1UFiHnyKRqgx8Lodsvdzu58LbVjdWHNf-uab2WmhE0A4/edit?usp=sharing)
+
+
+
+### MLFLOW DAGSHub Connection URI
+
+```bash
+MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/MLFLOW-DAGSHUB-experiment.mlflow \
+MLFLOW_TRACKING_USERNAME=akash-soni \
+MLFLOW_TRACKING_PASSWORD=09da3f5fa31c7da7bb4d94298a2e83c3277877a3 \
+python script.py
+```
+
+### Run from Bash Terminal
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/MLFLOW-DAGSHUB-experiment.mlflow
+
+export MLFLOW_TRACKING_USERNAME=akash-soni
+
+export MLFLOW_TRACKING_PASSWORD=09da3f5fa31c7da7bb4d94298a2e83c3277877a3
+```
