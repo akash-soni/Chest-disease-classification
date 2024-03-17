@@ -75,7 +75,7 @@ python app.py
 ### MLFLOW DAGSHub Connection URI
 
 ```bash
-MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/MLFLOW-DAGSHUB-experiment.mlflow \
+MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/Chest-disease-classification.mlflow \
 MLFLOW_TRACKING_USERNAME=akash-soni \
 MLFLOW_TRACKING_PASSWORD=09da3f5fa31c7da7bb4d94298a2e83c3277877a3 \
 python script.py
@@ -84,7 +84,7 @@ python script.py
 ### Run from Bash Terminal
 
 ```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/MLFLOW-DAGSHUB-experiment.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/akash-soni/Chest-disease-classification.mlflow
 
 export MLFLOW_TRACKING_USERNAME=akash-soni
 
